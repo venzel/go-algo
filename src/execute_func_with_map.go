@@ -1,3 +1,8 @@
+/**
+ * @author Enéas Almeida <eneas.eng@yahoo.com>
+ * @description O algoritmo resolve o problema de chamar uma função com um map de funções
+ */
+
 package src
 
 import "fmt"
