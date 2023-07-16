@@ -27,5 +27,8 @@ func main() {
 	// src.OrderAscStrings()
 	// src.OrderDescStrings()
 	// src.OrderAscObjectsManager()
-	src.OrderAscObjectManagerByNameAndAge()
+	// src.OrderAscObjectManagerByNameAndAge()
+
+	// src.ScanTerminal()
+	src.ScanTerminalWithOs()
 }
