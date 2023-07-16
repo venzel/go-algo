@@ -68,6 +68,8 @@ func GetCEP() {
 			continue
 		}
 
+		defer req.Body.Close()
+
 		body, err := io.ReadAll(req.Body)
 
 		if err != nil {
