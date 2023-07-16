@@ -34,5 +34,11 @@ func main() {
 
 	// src.GetPersonsByNameContain("ia")
 
-	src.GetCEP()
+	// src.GetCEP()
+
+	// client := &src.Client{}
+	// client.Init()
+	// client.GetCEPWithNewClient()
+
+	src.GetRequestWithContext()
 }
