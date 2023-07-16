@@ -30,5 +30,7 @@ func main() {
 	// src.OrderAscObjectManagerByNameAndAge()
 
 	// src.ScanTerminal()
-	src.ScanTerminalWithOs()
+	// src.ScanTerminalWithOs()
+
+	src.GetPersonsByNameContain("ia")
 }
