@@ -16,5 +16,9 @@ func main() {
 	// src.ToJson()
 	// src.ToObject()
 	// src.ToJsonSendStdout()
-	src.JsonToListObject()
+	// src.JsonToListObject()
+
+	// src.ConvertFloatToString(1.256)
+
+	src.SplitFullName("Tiago Rizzo")
 }
