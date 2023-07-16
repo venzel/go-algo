@@ -32,5 +32,7 @@ func main() {
 	// src.ScanTerminal()
 	// src.ScanTerminalWithOs()
 
-	src.GetPersonsByNameContain("ia")
+	// src.GetPersonsByNameContain("ia")
+
+	src.GetCEP()
 }

@@ -29,11 +29,11 @@ func ToJson() {
 }
 
 func ToObject() {
-	ctx := `{"name": "John Doe", "age": 20}`
+	str := `{"name": "John Doe", "age": 20}`
 
 	var user User
 
-	err := json.Unmarshal([]byte(ctx), &user)
+	err := json.Unmarshal([]byte(str), &user)
 
 	if err != nil {
 		panic(err)
@@ -69,11 +69,11 @@ func MapToJson() {
 }
 
 func JsonToMap() {
-	ctx := `{"name": "John Doe", "age": 20}`
+	str := `{"name": "John Doe", "age": 20}`
 
 	var userMap map[string]interface{}
 
-	err := json.Unmarshal([]byte(ctx), &userMap)
+	err := json.Unmarshal([]byte(str), &userMap)
 
 	if err != nil {
 		panic(err)
@@ -84,11 +84,11 @@ func JsonToMap() {
 }
 
 func JsonToListMap() {
-	ctx := `[{"name": "John Doe", "age": 20}, {"name": "John Doe", "age": 20}]`
+	str := `[{"name": "John Doe", "age": 20}, {"name": "John Doe", "age": 20}]`
 
 	var userMap []map[string]interface{}
 
-	err := json.Unmarshal([]byte(ctx), &userMap)
+	err := json.Unmarshal([]byte(str), &userMap)
 
 	if err != nil {
 		panic(err)
@@ -99,11 +99,11 @@ func JsonToListMap() {
 }
 
 func JsonToListObject() {
-	ctx := `[{"name": "John Doe", "age": 20}, {"name": "Margareth Menezes", "age": 21}]`
+	str := `[{"name": "John Doe", "age": 20}, {"name": "Margareth Menezes", "age": 21}]`
 
 	var users []*User
 
-	err := json.Unmarshal([]byte(ctx), &users)
+	err := json.Unmarshal([]byte(str), &users)
 
 	if err != nil {
 		panic(err)
