@@ -13,5 +13,6 @@ import (
 
 func GenerateUUID() {
 	id := uuid.New().String()
+
 	fmt.Println(id)
 }
