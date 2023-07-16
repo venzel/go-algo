@@ -20,5 +20,12 @@ func main() {
 
 	// src.ConvertFloatToString(1.256)
 
-	src.SplitFullName("Tiago Rizzo")
+	// src.SplitFullName("Tiago Rizzo")
+
+	// src.SlicesObjects()
+
+	// src.OrderAscStrings()
+	// src.OrderDescStrings()
+	// src.OrderAscObjectsManager()
+	src.OrderAscObjectManagerByNameAndAge()
 }
